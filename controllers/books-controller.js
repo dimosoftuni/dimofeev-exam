@@ -2,7 +2,7 @@ function setup(app, books) {
     app.get('/', function(req, res) {
       let model = {
         title: "My Books Colletion",
-        msg: "Something stupid",
+        msg: "Books Collection",
         books: books
       };
       res.render('home', model);
